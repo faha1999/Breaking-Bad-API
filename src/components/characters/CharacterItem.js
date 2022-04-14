@@ -22,6 +22,12 @@ const CharacterItem = ({ item }) => {
             <li>
               <strong>Status:</strong> {item.status}
             </li>
+            <li>
+              <strong>List of seasons:</strong> {item.appearance}
+            </li>
+            <li>
+              <strong>Role:</strong> {item.occupation}
+            </li>
           </ul>
         </div>
       </div>
